@@ -37,11 +37,13 @@ const Home = () => {
     return (
         <div className="homePageWrapper">
             <div className="formWrapper">
-                <img
+                {/* <img
                     className="homePageLogo"
                     src="/code-sync.png"
                     alt="code-sync-logo"
-                />
+                /> */}
+                <h1>Welcome To Code Connect</h1>
+                <h2>A Place Where You Can Collaborate with others coders to acheive your goal</h2>
                 <h4 className="mainLabel">Paste invitation ROOM ID</h4>
                 <div className="inputGroup">
                     <input
