@@ -1,4 +1,4 @@
-.homePageWrapper {
+/* .homePageWrapper {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,4 +140,141 @@ footer a:hover {
     font-size: 20px;
     line-height: 1.6;
     padding-top: 20px;
+} */
+
+
+
+
+
+
+/* Apply a modern gradient background with a shining effect */
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the form beautifully */
+.homePageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Form container with glowing effect */
+.formWrapper {
+    background: rgba(40, 42, 54, 0.95);
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 0 20px rgba(74, 238, 136, 0.4);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.formWrapper:hover {
+    transform: scale(1.02);
+}
+
+/* Input fields with neon glow */
+.inputBox {
+    padding: 12px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-bottom: 14px;
+    background: #eee;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.inputBox:focus {
+    box-shadow: 0 0 10px #4aed88;
+    border: 2px solid #4aed88;
+}
+
+/* Buttons with glowing hover effect */
+.btn {
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.joinBtn {
+    background: #4aed88;
+    color: #000;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 0 0 10px #4aed88;
+}
+
+.joinBtn:hover {
+    background: #2b824c;
+    box-shadow: 0 0 20px #4aed88;
+}
+
+/* Footer with stylish design */
+footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+}
+
+footer a {
+    color: #4aee88;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #32a85a;
+    text-shadow: 0 0 10px #4aed88;
+}
+
+/* Animated glowing text for the welcome message */
+h1 {
+    font-size: 24px;
+    background: linear-gradient(45deg, #ff8c00, #ff0080, #8a2be2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255, 0, 150, 0.7);
+}
+
+/* Subheading */
+h2 {
+    font-size: 16px;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+/* Create Room link with animation */
+.createNewBtn {
+    color: #4aed88;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid #4aed88;
+    transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover {
+    color: #32a85a;
+    border-color: #32a85a;
+    text-shadow: 0 0 10px #4aed88;
 }
